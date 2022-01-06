@@ -35,46 +35,14 @@
 
   <name>wcm.io Node Types and Namespaces</name>
   <description>This module contains the node types and namespaces being defined by wcm.io modules as a cnd file.</description>
-  <url>https://github.com/wcm-io/wcm-io-tooling/tree/develop/misc/wcmio-nodetypes</url>
+  <url>https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio</url>
 
   <scm>
-    <connection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</connection>
-    <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</developerConnection>
-    <url>https://github.com/wcm-io/wcm-io-tooling</url>
+    <connection>scm:git:https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio.git</connection>
+    <developerConnection>scm:git:https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio.git</developerConnection>
+    <url>https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio</url>
     <tag>HEAD</tag>
   </scm>
-
-  <build>
-    <pluginManagement>
-      <plugins>
-
-      <plugin>
-        <groupId>com.amashchenko.maven.plugin</groupId>
-        <artifactId>gitflow-maven-plugin</artifactId>
-        <configuration>
-          <gitFlowConfig>
-            <releaseBranchPrefix>release/${project.artifactId}-</releaseBranchPrefix>
-            <hotfixBranchPrefix>hotfix/${project.artifactId}-</hotfixBranchPrefix>
-            <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
-          </gitFlowConfig>
-        </configuration>
-      </plugin>
-        <plugin>
-          <groupId>external.atlassian.jgitflow</groupId>
-          <artifactId>jgitflow-maven-plugin</artifactId>
-          <configuration>
-            <flowInitContext>
-              <releaseBranchPrefix>release/${project.artifactId}-</releaseBranchPrefix>
-              <hotfixBranchPrefix>hotfix/${project.artifactId}-</hotfixBranchPrefix>
-              <versionTagPrefix>${project.artifactId}-</versionTagPrefix>
-            </flowInitContext>
-          </configuration>
-        </plugin>
-
-      </plugins>
-
-    </pluginManagement>
-  </build>
 
   <profiles>
     <!-- profile used for building releases and deployment to sonatype/maven central -->

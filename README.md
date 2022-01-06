@@ -1,5 +1,6 @@
 # wcm.io Nodetypes
 
+[![Build](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/actions?query=workflow%3ABuild+branch%3Adevelop)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio)
 
 # Overview
@@ -8,7 +9,7 @@ Provides a [CND file][1] with all Node types and Namespaces defined by wcm.io Mo
 # Usage with Maven
 You can use this module with the [FileVault Package Maven Plugin][3] in version 1.1.4 or higher like this:
 
-```
+```xml
 <plugin>
   <groupId>org.apache.jackrabbit</groupId>
   <artifactId>filevault-package-maven-plugin</artifactId>
