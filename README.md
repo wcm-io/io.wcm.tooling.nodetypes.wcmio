@@ -1,7 +1,7 @@
 # wcm.io Nodetypes
 
 [![Build](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/actions?query=workflow%3ABuild+branch%3Adevelop)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio)](https://repo1.maven.org/maven2/io/wcm/tooling/nodetypes/io.wcm.tooling.nodetypes.wcmio)
 
 # Overview
 Provides a [CND file][1] with all Node types and Namespaces defined by wcm.io Modules. It can be used for the [FileVault Validation Module][2] and its `jackrabbit-nodetype` validator as addition to the [AEM nodetypes][4].
