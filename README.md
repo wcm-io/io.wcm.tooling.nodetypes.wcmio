@@ -1,6 +1,6 @@
 # wcm.io Nodetypes
 
-[![Build](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/workflows/Build/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/actions?query=workflow%3ABuild+branch%3Adevelop)
+[![Build](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/actions/workflows/maven-build.yml/badge.svg?branch=develop)](https://github.com/wcm-io/io.wcm.tooling.nodetypes.wcmio/actions?query=workflow%3ABuild+branch%3Adevelop)
 [![Maven Central](https://img.shields.io/maven-central/v/io.wcm.tooling.nodetypes/io.wcm.tooling.nodetypes.wcmio)](https://repo1.maven.org/maven2/io/wcm/tooling/nodetypes/io.wcm.tooling.nodetypes.wcmio)
 
 # Overview
