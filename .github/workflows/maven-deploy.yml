@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Maven Deploy
-        uses: wcm-io-devops/github-action-maven-deploy@main
+        uses: wcm-io-devops/github-action-maven-deploy@v1
         with:
           java-version: 21
           maven-executable: ./mvnw
